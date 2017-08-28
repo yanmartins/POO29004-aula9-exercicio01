@@ -13,13 +13,13 @@ public class Complexo {
         imaginario = i;
     }
 
-    public void soma(Complexo a, Complexo b){
-        real = a.real + b.real;
-        imaginario = a.imaginario + b.imaginario;
+    public void soma(Complexo a){
+        real = a.real + real;
+        imaginario = a.imaginario + imaginario;
     }
-    public void subtracao(Complexo a, Complexo b){
-        real = a.real - b.real;
-        imaginario = a.imaginario - b.imaginario;
+    public void subtracao(Complexo a){
+        real = real - a.real;
+        imaginario = imaginario - a.imaginario;
     }
 
     public String toString(){
